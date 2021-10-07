@@ -1164,6 +1164,10 @@ a:hover {
   line-height: 1;
 }
 
+.counter__number.--text {
+  font-size: 40px !important;
+}
+
 @media screen and (min-width: 320px) {
   .counter__number {
     font-size: calc(43 * 1px + (104 - 43) * ((100vw - 320px) / 2240));
