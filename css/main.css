@@ -1259,6 +1259,21 @@ a:hover {
   margin: auto;
 }
 
+.mnp-lang-switch {
+  margin: auto;
+}
+
+.mnp-lang-switch a {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.mnp-lang-switch img {
+  width: 40px;
+  margin-left: 10px;
+}
+
 @media screen and (max-width: 990px) {
   .counter.--text {
     text-align: center;
