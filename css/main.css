@@ -128,6 +128,22 @@
  * ==========================================================================
  * ==========================================================================
  */
+
+strong {
+  font-weight: 600 !important;
+}
+@media screen and (max-width: 991px) {
+  .mnp-partner {
+    overflow-x: auto;
+  }
+
+  .mnp-partner__content {
+    flex-wrap: nowrap;
+    justify-content: flex-start !important;
+  }
+}
+
+
 :root {
   /* Fonts */
   --font-primary: 'Raleway', sans-serif;
@@ -222,6 +238,81 @@
   --preloader-circle-max-size: 960;
   --preloader-circle-min-size: 280;
 }
+
+@font-face {
+  font-family: 'La Luxes Script';
+  src: url('../fonts/LaLuxesScript.eot');
+  src: url('../fonts/LaLuxesScript.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/LaLuxesScript.woff2') format('woff2'),
+      url('../fonts/LaLuxesScript.woff') format('woff'),
+      url('../fonts/LaLuxesScript.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'La Luxes Script';
+  src: url('../fonts/LaLuxesScript_1.eot');
+  src: url('../fonts/LaLuxesScript_1.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/LaLuxesScript_1.woff2') format('woff2'),
+      url('../fonts/LaLuxesScript_1.woff') format('woff'),
+      url('../fonts/LaLuxesScript_1.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'La Luxes Script';
+  src: url('../fonts/LaLuxesScript_2.eot');
+  src: url('../fonts/LaLuxesScript_2.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/LaLuxesScript_2.woff2') format('woff2'),
+      url('../fonts/LaLuxesScript_2.woff') format('woff'),
+      url('../fonts/LaLuxesScript_2.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'La Luxes Serif';
+  src: url('../fonts/LaLuxesSerif.eot');
+  src: url('../fonts/LaLuxesSerif.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/LaLuxesSerif.woff2') format('woff2'),
+      url('../fonts/LaLuxesSerif.woff') format('woff'),
+      url('../fonts/LaLuxesSerif.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'La Luxes Serif';
+  src: url('../fonts/LaLuxesSerif_1.eot');
+  src: url('../fonts/LaLuxesSerif_1.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/LaLuxesSerif_1.woff2') format('woff2'),
+      url('../fonts/LaLuxesSerif_1.woff') format('woff'),
+      url('../fonts/LaLuxesSerif_1.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'La Luxes Serif';
+  src: url('../fonts/LaLuxesSerif_2.eot');
+  src: url('../fonts/LaLuxesSerif_2.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/LaLuxesSerif_2.woff2') format('woff2'),
+      url('../fonts/LaLuxesSerif_2.woff') format('woff'),
+      url('../fonts/LaLuxesSerif_2.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 
 
 
