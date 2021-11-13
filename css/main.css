@@ -1278,6 +1278,12 @@ a:hover {
   line-height: 1;
 }
 
+@media screen and (max-width: 990px) {
+  .section-image.section-masthead__background {
+    height: 90vh !important;
+  }
+}
+
 .counter__number.--text {
   font-size: 40px !important;
 }
