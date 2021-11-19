@@ -2,10 +2,10 @@
 /nos-nanny.html                 /nos-nanny
 /contact.html                   /contactez-nous
 /garde-enfants.html             /garde-enfants
-/index-en.html                  /en
+/en.html                  /en
 /child-care.html                /en/child-care
 /our-nanny.html                 /en/our-nanny
 /contact-us.html                /en/contact-us
-/                               /index-en.html  302  Language=en
+/                               /en.html  302  Language=en
 /en/*                           /en 404
 /*                              / 404

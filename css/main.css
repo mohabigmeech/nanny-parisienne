@@ -135,11 +135,36 @@ strong {
 @media screen and (max-width: 991px) {
   .mnp-partner {
     overflow-x: auto;
+    overflow-y: hidden;
   }
 
   .mnp-partner__content {
     flex-wrap: nowrap;
     justify-content: flex-start !important;
+  }
+}
+
+@media screen and (min-width: 991px) {
+
+  .mnp-partner__content > div:nth-child(n+5){
+    display: none;
+  }
+}
+
+.mnp-values__content {
+  display: flex;
+  align-items: flex-end;
+}
+
+.mnp-values__content > div {
+  text-align: center;
+  padding: 10px;
+}
+
+@media screen and (max-width: 991px) {
+
+  .mnp-values__content {
+    overflow-y: auto;
   }
 }
 
