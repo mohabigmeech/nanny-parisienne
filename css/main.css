@@ -147,7 +147,7 @@ strong {
 @media screen and (min-width: 991px) {
 
   .mnp-partner__content > div:nth-child(n+5){
-    display: none;
+    /* display: none; */
   }
 }
 
