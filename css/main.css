@@ -147,7 +147,7 @@ strong {
 @media screen and (min-width: 991px) {
 
   .mnp-partner__content > div:nth-child(n+5){
-    /* display: none; */
+    display: none;
   }
 }
 
@@ -198,7 +198,7 @@ strong {
   --h1-color-dark: #111111;
   /* h2 heading */
   --h2-max-font-size: 65;
-  --h2-min-font-size: 31;
+  --h2-min-font-size: 28;
   --h2-line-height: 1.31;
   --h2-color-light: #eeece6;
   --h2-color-dark: #111111;
@@ -234,7 +234,7 @@ strong {
   --blockquote-color-dark: #262626;
   /* Paragraph */
   --paragraph-max-font-size: 18;
-  --paragraph-min-font-size: 16;
+  --paragraph-min-font-size: 12;
   --paragraph-line-height: 1.8;
   --paragraph-color-light: #cccccc;
   --paragraph-color-dark: #262626;
